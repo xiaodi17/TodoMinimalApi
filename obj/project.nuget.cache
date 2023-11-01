@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FRA4Zy6j68dO1rNzxLGoEdNjvOOZpAzmlkJgkLW/YffOAxVvN6ujNjwbzd2iOWuC0O69QupQ/ccP8GBUsBp4jA==",
+  "dgSpecHash": "te8Uygv+f6jVamoSbSQY6kri62+iE/wbtp5b+tz0FaowqaM+R4JQmNzsU72JYFnhNkWfIR0+Xufn4s/hjXl/rw==",
   "success": true,
-  "projectFilePath": "c:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj",
+  "projectFilePath": "C:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.13\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj": {}
+    "C:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj": {}
   },
   "projects": {
-    "c:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj": {
+    "C:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj",
+        "projectUniqueName": "C:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj",
         "projectName": "TodoMinimalApi",
-        "projectPath": "c:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj",
+        "projectPath": "C:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "c:\\github\\TodoMinimalApi\\obj\\",
+        "outputPath": "C:\\github\\TodoMinimalApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.13, )"

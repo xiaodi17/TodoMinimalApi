@@ -30,3 +30,5 @@ C:\github\TodoMinimalApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstract
 C:\github\TodoMinimalApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\github\TodoMinimalApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\github\TodoMinimalApi\obj\Debug\net7.0\TodoMinimalApi.csproj.CopyComplete
+C:\github\TodoMinimalApi\bin\Debug\net7.0\MediatR.dll
+C:\github\TodoMinimalApi\bin\Debug\net7.0\MediatR.Contracts.dll
