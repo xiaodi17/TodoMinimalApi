@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using TodoMinimalApi;
 using TodoMinimalApi.Todo.CreateTodo;
 using TodoMinimalApi.Todo.GetAllTodos;
+using TodoMinimalApi.Todo.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TodoItemDb>(opt => opt.UseInMemoryDatabase("TodoList"));

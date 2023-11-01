@@ -1,5 +1,6 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using TodoMinimalApi.Todo.Models;
 
 namespace TodoMinimalApi.Todo.GetAllTodos;
 public class GetAllTodosHandler : IRequestHandler<GetAllTodosQuery, IEnumerable<TodoItem>>

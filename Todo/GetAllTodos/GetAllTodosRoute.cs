@@ -2,7 +2,6 @@ using MediatR;
 
 namespace TodoMinimalApi.Todo.GetAllTodos;
 
-
 public static class GetAllTodosRoute
 {
     public static async Task<IResult> Handle(IMediator mediator)
