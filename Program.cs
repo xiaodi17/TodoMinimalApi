@@ -9,9 +9,10 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 var app = builder.Build();
 
-var todoItems = app.MapGroup("/todoitems");
-todoItems.MapGet("/", GetAllTodosRoute.Handle);
-todoItems.MapPost("/", CreateTodoRoute.Handle);
+// Map the routes
+// We can go 1 step further to use reflection to auto discover and map routes
+GetAllTodosRoute.Map(app);
+CreateTodoRoute.Map(app);
 
 app.Run();
 

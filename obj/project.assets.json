@@ -721,19 +721,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luda\\.nuget\\packages\\": {}
+    "C:\\Users\\David\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\david\\TodoMinimalApi\\TodoMinimalApi.csproj",
+      "projectUniqueName": "C:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj",
       "projectName": "TodoMinimalApi",
-      "projectPath": "C:\\david\\TodoMinimalApi\\TodoMinimalApi.csproj",
-      "packagesPath": "C:\\Users\\luda\\.nuget\\packages\\",
-      "outputPath": "C:\\david\\TodoMinimalApi\\obj\\",
+      "projectPath": "C:\\github\\TodoMinimalApi\\TodoMinimalApi.csproj",
+      "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+      "outputPath": "C:\\github\\TodoMinimalApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\luda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -741,11 +745,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://artifactory.ofx.com/artifactory/api/nuget/ozforex-dev-all": {},
-        "https://artifactory.ofx.com/artifactory/api/nuget/ozforex-dev-local": {},
-        "https://artifactory.ofx.com/artifactory/api/nuget/ozforex-octopus-builds": {},
-        "https://nuget.pkg.github.com/ofx-com/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -795,7 +795,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
