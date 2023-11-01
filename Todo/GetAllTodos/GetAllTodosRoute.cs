@@ -1,5 +1,6 @@
 using MediatR;
-namespace TodoMinimalApi;
+
+namespace TodoMinimalApi.Todo.GetAllTodos;
 
 
 public static class GetAllTodosRoute
